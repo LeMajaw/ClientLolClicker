@@ -1,0 +1,6 @@
+cd C:\Users\VGDesenvolvimento\Desktop\ProjetoRoupas\Clicker
+
+python -m PyInstaller --onefile --windowed "Clicker.py"
+
+??
+python -m PyInstaller --onefile --add-data "PrintClient3.png;." Clicker.py
